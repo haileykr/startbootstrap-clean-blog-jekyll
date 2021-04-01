@@ -112,7 +112,7 @@ hidden: true
             e.preventDefault();
             clearImages();
             const search = form.elements.query.value;
-            const res = await fetch(`http://api.tvmaze.com/search/shows?q=${search}`);
+            const res = await fetch(`https://api.tvmaze.com/search/shows?q=${search}`);
             const data = await res.json();
             makeImages(data);
             form.elements.query.value = '';
