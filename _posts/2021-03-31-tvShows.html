@@ -1,0 +1,178 @@
+---
+layout: none
+title: "TV Show Search"
+hidden: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVMaze API Use</title>
+
+    <style>
+        body{
+            font-family: 'Lobster', cursive;
+            margin: auto;
+            text-align: center;
+        }
+
+        figure {
+            display: inline-block;
+            text-align: center;
+        }
+
+        a {
+            color: black;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            display: block;
+            padding: 20px;
+            width: 80%;
+            max-width: 700px;
+        }
+        .modal-content {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+        @keyframes zoom {
+            from {transform: scale(0)}
+            to {transform: scale(1)}
+        }
+        .close{
+            float: right;
+            transition: 0.3s;
+        }
+        .close:hover, .close:focus{
+            color: black;
+            cursor: pointer;
+        }
+
+        .btn{
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px 10px 20px;
+            color: white;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            transition: all 0.1s;
+            text-shadow:0px -2px rgba(0,0,0,0.5);
+        }
+        .btn:active{
+            transform: translateY(3px);
+        }
+        .btn.btn-blue{
+            background-color: rgb(49, 87, 211);
+            border-bottom:5px solid blue;
+        }
+        .btn.btn-blue:active{
+            border-bottom:2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TV Show Search</h1>
+    <h3>TV Maze Lookup with Keyword of your choice</h3>
+    <form id="searchForm">
+        <input type="text" placeholder="TV Show Title" name="query">
+        <button class="btn btn-blue">Search</button>
+    </form>
+    <div id="container"></div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class = "img" alt="">
+        </div>
+    </div>
+
+    <script>
+        const form = document.querySelector('#searchForm');
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            clearImages();
+            const search = form.elements.query.value;
+            const res = await fetch(`http://api.tvmaze.com/search/shows?q=${search}`);
+            const data = await res.json();
+            makeImages(data);
+            form.elements.query.value = '';
+        })
+
+        const makeImages = (shows) => {
+            for (let result of shows) {
+                if (result.show.image) {
+                    // link
+                    const a = document.createElement('a');
+                    a.href = result.show.url;
+                    a.target = "_blank";
+
+                    // figure - img & caption
+                    const fig = document.createElement('figure');
+                    const img = document.createElement('img');
+                    img.src = result.show.image.medium;
+
+                    const caption = document.createElement("figcaption");
+                    caption.innerText = result.show.name;
+
+                    a.append(caption);
+                    fig.append(img, a);
+                    container.appendChild(fig);
+                }
+            }
+        }
+
+        const clearImages = () => {
+            const allimages = document.body.querySelectorAll('#container img');
+            for (let each of allimages) {
+                each.remove();
+            }
+        }
+
+
+        // modal
+        const modal = document.getElementById("myModal");
+        const span = document.querySelector(".close");
+        const container = document.querySelector('#container');
+        const imgmodal = document.querySelector('.img');
+        container.addEventListener('click', function (event) {
+            const path = event.path;
+            console.log(path[1].querySelector('img').src)
+            if (path[1].tagName === 'FIGURE') {
+                modal.style.display = 'block';
+                imgmodal.src = path[1].querySelector('img').src;
+            }
+        })
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        window.onclick = function (ev) {
+            console.log(ev.target)
+            if (ev.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
