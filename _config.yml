@@ -26,3 +26,5 @@ plugins:
 
 
 highlighter: rouge
+
+future: false
