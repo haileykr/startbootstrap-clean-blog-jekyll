@@ -1,0 +1,98 @@
+I"2<h1 id="catchoo-in-progress">Catchoo (In Progress)</h1>
+<p>Web App for Cat Lovers.</p>
+
+<p><a href="catchoo.netlify.app" target="_blank">catchoo.netlify.app</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/img/posts/Catchoo_home.png" alt="home" /></td>
+      <td style="text-align: center"><img src="/img/posts/Catchoo_main.png" alt="main" /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="/img/posts/Catchoo_add.png" alt="add" /></td>
+      <td style="text-align: center"><img src="/img/posts/Catchoo_post.png" alt="post" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="team-members">Team Members</h2>
+<ul>
+  <li>This project is in progress with three other study group members, gathered via Korean developers’ online community - OKKY.kr.</li>
+  <li>Project started on 03/30/21 with a kick-off meeting.</li>
+  <li>Tool decision, task distribution, debugging, etc. happen throughout a day every day via Slack. Weekly zoom meetings happen for deeper discussion and catch-up.</li>
+  <li><strong>Front-end</strong>: ME (Main, Cat Add, Posts, and relevant logics) + HS (Home, Cat Record, Cat Data, and relevant logics)</li>
+  <li><strong>Back-end</strong>: HY, SH <br /></li>
+</ul>
+
+<h2 id="functionalities">Functionalities</h2>
+<ol>
+  <li>Track Weight of Your Cats
+    <ul>
+      <li>Set your cat’s goal weight!</li>
+      <li>Measure your cat’s weight and record it every day to track it in graphs or tables.</li>
+      <li>Your cat’s age is automatically calculated with its birthdate.</li>
+    </ul>
+  </li>
+  <li>Registration Made Easy
+    <ul>
+      <li>Register as a user using a regular or social login (Kakao, Naver) option!</li>
+    </ul>
+  </li>
+  <li>Share Your Stories with Other Cat Lovers
+    <ul>
+      <li>Post any stories and photos you want to share with other users.</li>
+      <li>Whether it be to show off your cat’s beauty or to ask questions, this app is here for you! <br /></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p><img src="/img/posts/Catchoo_tech_stack.png" alt="tech_stack" /> <br /></p>
+
+<h4 id="general">General</h4>
+<ul>
+  <li>Implemented RESTful Routes <br /></li>
+</ul>
+
+<h4 id="front-end">Front-end</h4>
+<ul>
+  <li><strong>React</strong> used to optimize rerendering and app performance.</li>
+  <li><strong>React-Hooks</strong> used to implement states and life cycle methods while using function components for reusable and simple codes.</li>
+  <li><strong>React-Router</strong> used to manage routes and links.</li>
+  <li><strong>Redux</strong> used to centralize the app’s states and logics and to manage them easily.</li>
+  <li><strong>Redux-Saga</strong> used to manage asynchronous action flows.</li>
+  <li><strong>JWT</strong> used to ensure scalability with potential increase in number of users.</li>
+  <li>Other Settings
+    <ul>
+      <li><em>immer</em> to ensure immutability of states.</li>
+      <li><em>Axios</em> to handle HTTP requests based on promises.</li>
+      <li><em>Styled-component</em> to style components without triggering unnecessary rerenders.</li>
+      <li><em>React-Slick</em> to create image carousels.</li>
+      <li><em>Recharts</em> to create charts with data.</li>
+      <li><em>Font-Awesome</em>  to use various icons.</li>
+      <li><em>qs</em> to get data by parsing query strings.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="back-end">Back-End</h4>
+<ul>
+  <li>Spring Boot + Gradle + Java + MariaDB</li>
+  <li>Swagger UI is implemented for better communication using APIs with Front-end team.</li>
+</ul>
+
+<h4 id="deployment">Deployment</h4>
+<ul>
+  <li>Front-end server <em>temporarily</em> deployed on Netlify.</li>
+  <li>Back-end server <em>to be</em> deployed on AWS</li>
+</ul>
+:ET
