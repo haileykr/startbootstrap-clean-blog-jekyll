@@ -19,7 +19,7 @@ I am a professional structural engineer (P.E)👯 aiming to get a B.Eng in Compu
 ```javascript
 const aboutMe = {
    pronouns: "she" | "her",
-   code: [Javascript, HTML, CSS, Python, Java, C],
+   code: ["Javascript", "HTML", "CSS", "Python", "Java", "C"],
    technologies: {
       frontEnd: {
          css: ["Bulma", "Bootstrap", "Semantic UI"],
