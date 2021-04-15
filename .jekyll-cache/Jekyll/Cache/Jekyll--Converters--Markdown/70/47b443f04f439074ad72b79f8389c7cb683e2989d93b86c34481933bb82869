@@ -1,5 +1,7 @@
-I"<h1 id="catchoo-in-progress">Catchoo (In Progress)</h1>
+I"r<h1 id="catchoo-in-progress">Catchoo (In Progress)</h1>
 <p>Web App for Cat Lovers.</p>
+
+<p>Participated as a Front-end developer.</p>
 
 <p><a href="catchoo.netlify.app" target="_blank">catchoo.netlify.app</a></p>
 
@@ -29,8 +31,8 @@
   <li>This project is in progress with three other study group members, gathered via Korean developers’ online community - OKKY.kr.</li>
   <li>Project started on 03/30/21 with a kick-off meeting.</li>
   <li>Tool decision, task distribution, debugging, etc. happen throughout a day every day via Slack. Weekly zoom meetings happen for deeper discussion and catch-up.</li>
-  <li><strong>Front-end</strong>: ME (Main, Cat Add, Posts, and relevant logics) + HS (Home, Cat Record, Cat Data, and relevant logics)</li>
-  <li><strong>Back-end</strong>: HY, SH</li>
+  <li><strong>Front-end</strong>: <strong>ME</strong> (Main, Cat Add, Posts, and relevant logics) + HS (Home, Cat Record, Cat Data, and relevant logics)</li>
+  <li><strong>Back-end</strong>: HY, SH <br /></li>
 </ul>
 
 <h2 id="functionalities">Functionalities</h2>
@@ -50,17 +52,17 @@
   <li>Share Your Stories with Other Cat Lovers
     <ul>
       <li>Post any stories and photos you want to share with other users.</li>
-      <li>Whether it be to show off your cat’s beauty or to ask questions, this app is here for you!</li>
+      <li>Whether it be to show off your cat’s beauty or to ask questions, this app is here for you! <br /></li>
     </ul>
   </li>
 </ol>
 
 <h2 id="tech-stack">Tech Stack</h2>
-<p><img src="/img/posts/Catchoo_tech_stack.png" alt="tech_stack" /></p>
+<p><img src="/img/posts/Catchoo_tech_stack.png" alt="tech_stack" /> <br /></p>
 
 <h4 id="general">General</h4>
 <ul>
-  <li>Implemented RESTful Routes</li>
+  <li>Implemented RESTful Routes <br /></li>
 </ul>
 
 <h4 id="front-end">Front-end</h4>

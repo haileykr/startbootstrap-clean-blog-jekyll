@@ -1,4 +1,4 @@
-I"�<h3 id="hi-there-">Hi there 👋</h3>
+I"<h3 id="hi-there-">Hi there 👋</h3>
 
 <p><em>Hello! I am Hailey Kim, studying Computer Science to contribute to innovations and the better world.
 <br />
@@ -9,7 +9,7 @@ I am a professional structural engineer (P.E)👯 aiming to get a B.Eng in Compu
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">aboutMe</span> <span class="o">=</span> <span class="p">{</span>
    <span class="na">pronouns</span><span class="p">:</span> <span class="dl">"</span><span class="s2">she</span><span class="dl">"</span> <span class="o">|</span> <span class="dl">"</span><span class="s2">her</span><span class="dl">"</span><span class="p">,</span>
-   <span class="na">code</span><span class="p">:</span> <span class="p">[</span><span class="nx">Javascript</span><span class="p">,</span> <span class="nx">HTML</span><span class="p">,</span> <span class="nx">CSS</span><span class="p">,</span> <span class="nx">Python</span><span class="p">,</span> <span class="nx">Java</span><span class="p">,</span> <span class="nx">C</span><span class="p">],</span>
+   <span class="na">code</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Javascript</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">HTML</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">CSS</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Python</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Java</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">C</span><span class="dl">"</span><span class="p">],</span>
    <span class="na">technologies</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">frontEnd</span><span class="p">:</span> <span class="p">{</span>
          <span class="na">css</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Bulma</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Bootstrap</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Semantic UI</span><span class="dl">"</span><span class="p">],</span>
