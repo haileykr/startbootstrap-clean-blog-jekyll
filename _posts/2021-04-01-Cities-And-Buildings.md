@@ -7,7 +7,7 @@ background: '/img/posts/CAB_index.jpg'
 # Cities And Buildings
 Web Application for Architects, Engineers, and All Other Building-Fanatics.
 
-[citiesandbuildings.herokuapp.com](https://citiesandbuildings.herokuapp.com)
+[citiesandbuildings.herokuapp.com](https://citiesandbuildings.herokuapp.com){:target="_blank"}
 
 ![home](/img/posts/CAB_index.png)
 
@@ -25,11 +25,11 @@ Web Application for Architects, Engineers, and All Other Building-Fanatics.
 ## Tech Stack
 ![tech_stack](/img/posts/CAB_tech_stack.png)
 
-#### Frontend
+#### Front-end
 - Built on HTML, CSS, and JavaScript
 - Bootstrap was used as a CSS framework to apply further styling and responsiveness to the app.
 
-#### Backend
+#### Back-end
 - Implemented RESTful Routes
 - Express web framework was used to set up a server
 - Express on Node.js was chosen to use JavaScript only for both frontend and backend sides
