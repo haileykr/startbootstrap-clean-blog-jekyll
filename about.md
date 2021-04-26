@@ -19,20 +19,20 @@ I am a professional structural engineer (P.E)👯 aiming to get a B.Eng in Compu
 ```javascript
 const aboutMe = {
    pronouns: "she" | "her",
-   code: ["Javascript", "HTML", "CSS", "Python", "Java", "C"],
+   code: ["Javascript", "HTML", "CSS", "Python", "C"],
    technologies: {
       frontEnd: {
-         css: ["Bulma", "Bootstrap", "Semantic UI"],
+         css: ["Bootstrap", "Bulma", "Semantic UI"],
          js: ["React"],
       },
       backEnd: {
          js: ["Node", "Express"],
-         java: ["Spring"]
       },
       databases: ["MongoDB", "mySQL"],
    },
-   currentOccupation: ["student, looking for job opportunities"],
-   motto: "You can only connect the dots looking backwards!"
+   currentOccupation: "student, looking for job opportunities",
+   motto: "You can only connect the dots looking backwards!",
+   funFact: "Registered Professional Structural Engineer (PE in California) / Building Enthusiast"
 };
 ```
 
