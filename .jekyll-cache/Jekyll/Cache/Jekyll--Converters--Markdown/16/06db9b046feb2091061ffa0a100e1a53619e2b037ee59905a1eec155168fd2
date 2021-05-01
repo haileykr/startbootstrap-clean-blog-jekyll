@@ -1,0 +1,36 @@
+I"�<h3 id="hi-there-">Hi there 👋</h3>
+
+<p><em>Hello! I am Hailey Kim, studying Computer Science to contribute to innovations and the better world.
+<br />
+I am a professional structural engineer (P.E)👯 aiming to get a B.Eng in Computer Engineering this August.😊
+</em></p>
+
+<p><a href="https://www.linkedin.com/in/haileyharrykim/"><img src="https://img.shields.io/badge/-hailey_harry_kim-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/haileyharrykim/" alt="Linkedin: haileykr" /></a> <a href="https://piaflu.tistory.com"><img src="https://img.shields.io/badge/-tistory_(korean)-black?style=flat-square&amp;logo=Github_Sponsors&amp;logoColor=white&amp;link=https://www.linkedin.com/in/haileyharrykim/" alt="Tistory: haileykr" /></a></p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">aboutMe</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="na">pronouns</span><span class="p">:</span> <span class="dl">"</span><span class="s2">she</span><span class="dl">"</span> <span class="o">|</span> <span class="dl">"</span><span class="s2">her</span><span class="dl">"</span><span class="p">,</span>
+   <span class="na">code</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Javascript</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">HTML</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">CSS</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Python</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">C</span><span class="dl">"</span><span class="p">],</span>
+   <span class="na">technologies</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">frontEnd</span><span class="p">:</span> <span class="p">{</span>
+         <span class="na">css</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Bootstrap</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Bulma</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Semantic UI</span><span class="dl">"</span><span class="p">],</span>
+         <span class="na">js</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">React</span><span class="dl">"</span><span class="p">],</span>
+      <span class="p">},</span>
+      <span class="na">backEnd</span><span class="p">:</span> <span class="p">{</span>
+         <span class="na">js</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Node</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Express</span><span class="dl">"</span><span class="p">],</span>
+      <span class="p">},</span>
+      <span class="na">databases</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">MongoDB</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">mySQL</span><span class="dl">"</span><span class="p">],</span>
+   <span class="p">},</span>
+   <span class="na">currentOccupation</span><span class="p">:</span> <span class="dl">"</span><span class="s2">student, looking for job opportunities</span><span class="dl">"</span><span class="p">,</span>
+   <span class="na">motto</span><span class="p">:</span> <span class="dl">"</span><span class="s2">You can only connect the dots looking backwards!</span><span class="dl">"</span><span class="p">,</span>
+   <span class="na">funFact</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Registered Professional Structural Engineer (PE in California) / Building Enthusiast</span><span class="dl">"</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p><br />
+<br /></p>
+<h3>🌱 Github stats 🌱</h3>
+
+<p><img src="https://github-readme-stats.vercel.app/api?username=haileykr&amp;show_icons=true" alt="haileykr's github stats" /></p>
+
+<hr />
+:ET
