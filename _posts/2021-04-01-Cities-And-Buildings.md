@@ -9,7 +9,9 @@ Web Application for Architects, Engineers, and All Other Building-Fanatics.
 
 [citiesandbuildings.herokuapp.com](https://citiesandbuildings.herokuapp.com){:target="_blank"}
 
-![home](/img/posts/CAB_index.png)
+![home](/img/posts/CAB_image.png)
+
+![index](/img/posts/CAB_ind.png)
 
 ## Functionalities
 1. Explore Buildings around the World
