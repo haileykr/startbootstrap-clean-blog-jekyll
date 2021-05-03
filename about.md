@@ -35,7 +35,16 @@ const aboutMe = {
    funFact: "Registered Professional Structural Engineer (PE in California) / Building Enthusiast"
 };
 ```
-
+<br>
+<br>
+<h3> Experiences </h3>
+* [2019.11 ~ 2020.07] Eckersley O'Callaghan - New York, NY - Senior Structural Engineer
+* [2017.08 ~ 2019.10] Thornton Tomasetti - New York, NY - Structural Engineer
+<br>
+<h3> Education </h3>
+* [2020.08 ~ present] Academic Credit Bank System (ACBS) - South Korea - B.Eng in Computer Science (Expected August 2021)
+* [2016.09 ~ 2017.06] Massachusetts Institute of Technology (MIT) - Cambridge, MA - M.Eng in Civil and Environmental Engineering
+* [2012.09 ~ 2016.06] The Cooper Union for the Advancement of Science and Art - New York, NY - B.Eng in Civil and Environmental Engineering
 <br>
 <br>
 <h3>🌱 Github stats 🌱</h3>
