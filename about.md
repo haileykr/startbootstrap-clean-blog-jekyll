@@ -19,16 +19,16 @@ I am a professional structural engineer (P.E)👯 aiming to get a B.Eng in Compu
 ```javascript
 const aboutMe = {
    pronouns: "she" | "her",
-   code: ["Javascript", "HTML", "CSS", "Python", "C"],
+   languages: ["Javascript", "Python", "HTML", "CSS", "C"],
    technologies: {
-      frontEnd: {
-         css: ["Bootstrap", "Bulma", "Semantic UI"],
+      ✨ frontEnd: {
          js: ["React"],
+         css: ["Bulma", "Bootstrap", "Semantic UI"],
       },
-      backEnd: {
+      💻 backEnd: {
          js: ["Node", "Express"],
       },
-      databases: ["MongoDB", "mySQL"],
+      💬 databases: ["MongoDB", "mySQL"],
    },
    currentOccupation: "student, looking for job opportunities",
    motto: "You can only connect the dots looking backwards!",

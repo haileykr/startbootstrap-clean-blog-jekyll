@@ -1,9 +1,11 @@
-I"õ<h1 id="cities-and-buildings">Cities And Buildings</h1>
+I"4<h1 id="cities-and-buildings">Cities And Buildings</h1>
 <p>Web Application for Architects, Engineers, and All Other Building-Fanatics.</p>
 
 <p><a href="https://citiesandbuildings.herokuapp.com" target="_blank">citiesandbuildings.herokuapp.com</a></p>
 
-<p><img src="/img/posts/CAB_index.png" alt="home" /></p>
+<p><img src="/img/posts/CAB_image.png" alt="home" /></p>
+
+<p><img src="/img/posts/CAB_ind.png" alt="index" /></p>
 
 <h2 id="functionalities">Functionalities</h2>
 <ol>
@@ -30,7 +32,7 @@
 
 <h4 id="front-end">Front-end</h4>
 <ul>
-  <li>Built on HTML, CSS, and JavaScript</li>
+  <li>Built on HTML, CSS, and JavaScript (EJS)</li>
   <li>Bootstrap was used as a CSS framework to apply further styling and responsiveness to the app.</li>
 </ul>
 

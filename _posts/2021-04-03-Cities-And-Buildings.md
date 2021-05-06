@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cities And Buildings"
-subtitle: "Bootstrap + Node.js + MongoDB + Heroku"
+subtitle: "EJS + Bootstrap + Node.js + MongoDB + Heroku"
 background: '/img/posts/CAB_index.png'
 ---
 # Cities And Buildings
@@ -28,7 +28,7 @@ Web Application for Architects, Engineers, and All Other Building-Fanatics.
 ![tech_stack](/img/posts/CAB_tech_stack.png)
 
 #### Front-end
-- Built on HTML, CSS, and JavaScript
+- Built on HTML, CSS, and JavaScript (EJS)
 - Bootstrap was used as a CSS framework to apply further styling and responsiveness to the app.
 
 #### Back-end

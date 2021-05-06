@@ -1,4 +1,4 @@
-I"�<h3 id="hi-there-">Hi there 👋</h3>
+I"�<h3 id="hi-there-">Hi there 👋</h3>
 
 <p><em>Hello! I am Hailey Kim, studying Computer Science to contribute to innovations and the better world.
 <br />
@@ -9,25 +9,38 @@ I am a professional structural engineer (P.E)👯 aiming to get a B.Eng in Compu
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">aboutMe</span> <span class="o">=</span> <span class="p">{</span>
    <span class="na">pronouns</span><span class="p">:</span> <span class="dl">"</span><span class="s2">she</span><span class="dl">"</span> <span class="o">|</span> <span class="dl">"</span><span class="s2">her</span><span class="dl">"</span><span class="p">,</span>
-   <span class="na">code</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Javascript</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">HTML</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">CSS</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Python</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">C</span><span class="dl">"</span><span class="p">],</span>
+   <span class="na">languages</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Javascript</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Python</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">HTML</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">CSS</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">C</span><span class="dl">"</span><span class="p">],</span>
    <span class="na">technologies</span><span class="p">:</span> <span class="p">{</span>
-      <span class="na">frontEnd</span><span class="p">:</span> <span class="p">{</span>
-         <span class="na">css</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Bootstrap</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Bulma</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Semantic UI</span><span class="dl">"</span><span class="p">],</span>
+      <span class="err">✨</span> <span class="na">frontEnd</span><span class="p">:</span> <span class="p">{</span>
          <span class="na">js</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">React</span><span class="dl">"</span><span class="p">],</span>
+         <span class="na">css</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Bulma</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Bootstrap</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Semantic UI</span><span class="dl">"</span><span class="p">],</span>
       <span class="p">},</span>
-      <span class="na">backEnd</span><span class="p">:</span> <span class="p">{</span>
+      <span class="err">💻</span> <span class="na">backEnd</span><span class="p">:</span> <span class="p">{</span>
          <span class="na">js</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Node</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Express</span><span class="dl">"</span><span class="p">],</span>
       <span class="p">},</span>
-      <span class="na">databases</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">MongoDB</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">mySQL</span><span class="dl">"</span><span class="p">],</span>
+      <span class="err">💬</span> <span class="na">databases</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">MongoDB</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">mySQL</span><span class="dl">"</span><span class="p">],</span>
    <span class="p">},</span>
    <span class="na">currentOccupation</span><span class="p">:</span> <span class="dl">"</span><span class="s2">student, looking for job opportunities</span><span class="dl">"</span><span class="p">,</span>
    <span class="na">motto</span><span class="p">:</span> <span class="dl">"</span><span class="s2">You can only connect the dots looking backwards!</span><span class="dl">"</span><span class="p">,</span>
    <span class="na">funFact</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Registered Professional Structural Engineer (PE in California) / Building Enthusiast</span><span class="dl">"</span>
 <span class="p">};</span>
 </code></pre></div></div>
-
 <p><br />
 <br /></p>
+<h3> Experiences </h3>
+<ul>
+  <li>[2019.11 ~ 2020.07] Eckersley O’Callaghan - New York, NY - Senior Structural Engineer</li>
+  <li>[2017.08 ~ 2019.10] Thornton Tomasetti - New York, NY - Structural Engineer
+<br /></li>
+</ul>
+<h3> Education </h3>
+<ul>
+  <li>[2020.08 ~ present] Academic Credit Bank System (ACBS) - South Korea - B.Eng in Computer Science (Expected August 2021)</li>
+  <li>[2016.09 ~ 2017.06] Massachusetts Institute of Technology (MIT) - Cambridge, MA - M.Eng in Civil and Environmental Engineering</li>
+  <li>[2012.09 ~ 2016.06] The Cooper Union for the Advancement of Science and Art - New York, NY - B.Eng in Civil and Environmental Engineering
+<br />
+<br /></li>
+</ul>
 <h3>🌱 Github stats 🌱</h3>
 
 <p><img src="https://github-readme-stats.vercel.app/api?username=haileykr&amp;show_icons=true" alt="haileykr's github stats" /></p>

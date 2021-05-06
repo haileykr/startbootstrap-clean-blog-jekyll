@@ -5,12 +5,13 @@ author:             Start Bootstrap
 baseurl:            ""
 url:                "https://haileykr.github.io"
 
+
 # Social Profiles
 twitter_username:   
-github_username:
+github_username: haileykr
 facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username: haileyharrykim
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code

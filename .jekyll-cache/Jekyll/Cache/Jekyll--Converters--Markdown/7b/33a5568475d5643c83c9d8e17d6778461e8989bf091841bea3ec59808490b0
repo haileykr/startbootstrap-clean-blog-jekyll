@@ -1,9 +1,9 @@
-I"H<h1 id="catchoo-in-progress">Catchoo (In Progress)</h1>
+I"g<h1 id="catchoo-in-progress">Catchoo (In Progress)</h1>
 <p>Web App for Cat Lovers.</p>
 
 <p>Participated as a Front-end developer.</p>
 
-<p><a href="catchoo.netlify.app" target="_blank">catchoo.netlify.app</a></p>
+<p><a href="https://catchoo.netlify.app" target="_blank">catchoo.netlify.app</a></p>
 
 <table>
   <thead>
@@ -54,7 +54,7 @@
   </li>
   <li>Registration Made Easy
     <ul>
-      <li>Register as a user using a regular or social login (Kakao, Naver) option!</li>
+      <li>Register as a user using a regular or social login (Kakao) option!</li>
     </ul>
   </li>
   <li>Share Your Stories with Other Cat Lovers
@@ -85,7 +85,6 @@
     <ul>
       <li><em>immer</em> to ensure immutability of states.</li>
       <li><em>Axios</em> to handle HTTP requests based on promises.</li>
-      <li><em>qs</em> to parse query strings.</li>
       <li><em>Styled-component</em> to style components without triggering unnecessary rerenders, to store the shared design elements, and to provide dark/light mode options.</li>
       <li><em>React-Easy-Crop</em> to crop uploaded images.</li>
       <li><em>React-Slick</em> to create image carousels.</li>
@@ -95,15 +94,26 @@
   </li>
 </ul>
 
-<h4 id="back-end">Back-End</h4>
+<h4 id="back-end">Back-end</h4>
 <ul>
-  <li><strong>Spring Boot + Gradle + Java + MariaDB</strong></li>
+  <li><strong>Java</strong> used to develop object based apps, which is easier as it helps keeps the system flexible and extensible.</li>
+  <li><strong>Spring Framework</strong> used to simplify enterprise-level Java development and loose coupling of code by dependency injection and AOP.</li>
+  <li><strong>Spring Boot</strong> used to make development, testing, and deployment more convenient.</li>
+  <li><strong>Spring Security</strong> used to implement authentication, authorization, and protection against common attacks.</li>
+  <li><strong>JPA(Hibernate)</strong> used to manipulate data from database through an object-oriented program and improve productivity.</li>
+  <li><strong>MariaDB</strong> used to avoid data redundancy and data duplication.</li>
   <li><strong>Swagger UI</strong> is implemented for better communication using APIs with Front-end team.</li>
-</ul>
-
-<h4 id="deployment">Deployment</h4>
-<ul>
-  <li>Front-end server deployed on Netlify.</li>
+  <li>Other Settings
+    <ul>
+      <li><em>JUnit</em> used to write and run repeatable automated tests.</li>
+      <li><em>Bean Validation</em> used to validate user input.</li>
+      <li><em>Lombok</em> used to reduce boilerplate code for model/data objects.</li>
+      <li><em>Apache Commons Lang 3</em> used to manupulate core classes of Java APIs.
+        <h4 id="deployment">Deployment</h4>
+      </li>
+    </ul>
+  </li>
+  <li>Front-end server <strong>temporarily</strong> deployed on Netlify.</li>
   <li>Back-end server deployed on AWS</li>
 </ul>
 :ET
