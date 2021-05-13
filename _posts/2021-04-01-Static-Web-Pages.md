@@ -19,6 +19,13 @@ background: '/img/posts/02.jpg'
 - **Link** - [*Culture Of Korea*](../../../2021/03/31/Culture-Of-Korea.html){:target="_blank"}
 <br>
 
+#### To-Do List
+- HTML + CSS + VanillaJS
+- A simple webpage showing the current time, the weather at your location, and a to-do list!
+- Weather shown using OpenWeatherMap API!
+- **Link** - [To-Do List](https://haileykr.github.io/basicJS){:target="_blank"}
+<br>
+
 #### Image Gallery | Virtual Trip
 - Each card shows a random photo of the city it is representing, retrived from *Unsplash*.
 - Clicking each card leads you to Unsplash search results on its city.
