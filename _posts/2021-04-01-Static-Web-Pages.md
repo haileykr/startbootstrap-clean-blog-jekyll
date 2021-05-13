@@ -19,6 +19,11 @@ background: '/img/posts/02.jpg'
 - **Link** - [*Culture Of Korea*](../../../2021/03/31/Culture-Of-Korea.html){:target="_blank"}
 <br>
 
+#### TV Show Search
+- Retrieve tv shows with titles containing keyword, using [TV Maze API](https://www.tvmaze.com/api)
+- Implemented modal using pure CSS
+- **Link** - [TV Show Search](../../../2021/03/31/tvShows.html){:target="_blank"}
+
 #### To-Do List
 - HTML + CSS + VanillaJS
 - A simple webpage showing the current time, the weather at your location, and a to-do list!
@@ -43,9 +48,4 @@ background: '/img/posts/02.jpg'
 - Lazy loading implemented using Event Listener
 - **Link** - [Bridge Board](../../../2021/03/31/masonry-fontello.html){:target="_blank"}
 <br>
-
-#### TV Show Search
-- Retrieve tv shows with titles containing keyword, using [TV Maze API](https://www.tvmaze.com/api)
-- Implemented modal using pure CSS
-- **Link** - [TV Show Search](../../../2021/03/31/tvShows.html){:target="_blank"}
 
