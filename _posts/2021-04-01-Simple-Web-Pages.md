@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Static Web Pages (정적 페이지 모음)"
-subtitle: "HTML/CSS/JS + Additional Libraries"
+title: "Simple Web Pages "
+subtitle: "HTML/CSS/JS + API Use + Additional Libraries"
 background: '/img/posts/02.jpg'
 ---
-# Static Web Pages
+# Simple Web Pages
 > Compilation of quick static web pages I created
 <br>
-> Simple web pages built on HTML + CSS + client-side JS, with minimal additional features
+> Simple web pages built on HTML + CSS + client-side JS, with additional features
 
 <br>
 
