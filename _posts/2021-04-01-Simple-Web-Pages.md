@@ -11,24 +11,25 @@ background: '/img/posts/02.jpg'
 
 <br>
 
-#### Culture Of Korea
-- Responsive layout - order of elements changes on mobile screen
-- Live Chat functionality added using [*Tawk*](https://www.tawk.to/)
-- Comment functionality added using [*Disqus*](https://blog.disqus.com)
-- Bootstrap framework used
-- **Link** - [*Culture Of Korea*](../../../2021/03/31/Culture-Of-Korea.html){:target="_blank"}
-<br>
-
 #### TV Show Search
 - Retrieve tv shows with titles containing keyword, using [TV Maze API](https://www.tvmaze.com/api)
 - Implemented modal using pure CSS
 - **Link** - [TV Show Search](../../../2021/03/31/tvShows.html){:target="_blank"}
+<br>
 
 #### To-Do List
 - HTML + CSS + VanillaJS
 - A simple webpage showing the current time, the weather at your location, and a to-do list!
 - Weather shown using OpenWeatherMap API!
 - **Link** - [To-Do List](https://haileykr.github.io/basicJS){:target="_blank"}
+<br>
+
+#### Culture Of Korea
+- Responsive layout - order of elements changes on mobile screen
+- Live Chat functionality added using [*Tawk*](https://www.tawk.to/)
+- Comment functionality added using [*Disqus*](https://blog.disqus.com)
+- Bootstrap framework used
+- **Link** - [*Culture Of Korea*](../../../2021/03/31/Culture-Of-Korea.html){:target="_blank"}
 <br>
 
 #### Image Gallery | Virtual Trip
