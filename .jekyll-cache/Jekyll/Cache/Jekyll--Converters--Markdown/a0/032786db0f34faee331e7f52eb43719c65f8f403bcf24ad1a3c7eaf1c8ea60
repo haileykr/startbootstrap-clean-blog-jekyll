@@ -1,11 +1,29 @@
-I"Ó<h1 id="static-web-pages">Static Web Pages</h1>
+I",
+<h1 id="simple-web-pages">Simple Web Pages</h1>
 <blockquote>
-  <p>Compilation of quick static web pages I created
+  <p>Compilation of quick web pages I created
 <br />
-Simple web pages built on HTML + CSS + client-side JS, with minimal additional features</p>
+Simple web pages built on HTML + CSS + client-side JS, with additional features</p>
 </blockquote>
 
 <p><br /></p>
+
+<h4 id="tv-show-search">TV Show Search</h4>
+<ul>
+  <li>Retrieve tv shows with titles containing keyword, using <a href="https://www.tvmaze.com/api">TV Maze API</a></li>
+  <li>Implemented modal using pure CSS</li>
+  <li><strong>Link</strong> - <a href="../../../2021/03/31/tvShows.html" target="_blank">TV Show Search</a>
+<br /></li>
+</ul>
+
+<h4 id="to-do-list">To-Do List</h4>
+<ul>
+  <li>HTML + CSS + VanillaJS</li>
+  <li>A simple webpage showing the current time, the weather at your location, and a to-do list!</li>
+  <li>Weather shown using OpenWeatherMap API!</li>
+  <li><strong>Link</strong> - <a href="https://haileykr.github.io/basicJS" target="_blank">To-Do List</a>
+<br /></li>
+</ul>
 
 <h4 id="culture-of-korea">Culture Of Korea</h4>
 <ul>
@@ -39,13 +57,6 @@ Simple web pages built on HTML + CSS + client-side JS, with minimal additional f
   <li>Lazy loading implemented using Event Listener</li>
   <li><strong>Link</strong> - <a href="../../../2021/03/31/masonry-fontello.html" target="_blank">Bridge Board</a>
 <br /></li>
-</ul>
-
-<h4 id="tv-show-search">TV Show Search</h4>
-<ul>
-  <li>Retrieve tv shows with titles containing keyword, using <a href="https://www.tvmaze.com/api">TV Maze API</a></li>
-  <li>Implemented modal using pure CSS</li>
-  <li><strong>Link</strong> - <a href="../../../2021/03/31/tvShows.html" target="_blank">TV Show Search</a></li>
 </ul>
 
 :ET

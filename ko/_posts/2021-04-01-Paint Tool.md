@@ -2,12 +2,13 @@
 layout: post
 title: "Simple Paint Tool"
 subtitle: "HTML/CSS + Vanilla JS"
-background: '/img/posts/universe.jpeg'
-lang: en
-lang-ref: imple-Paint-Tool
+background: '/img/posts/universe.png'
+lang: ko
+lang-ref: Simple-Paint-Tool
 ---
 
 # Simple Paint Tool
+페인트 페인트
 Paint as you want on a canvas and save it!
 
 [Simple Paint Tool](https://haileykr.github.io/paintJS){:target="blank"}

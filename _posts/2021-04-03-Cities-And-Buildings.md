@@ -2,7 +2,9 @@
 layout: post
 title: "Cities And Buildings"
 subtitle: "EJS + Bootstrap + Node.js + MongoDB + Heroku"
-background: '/img/posts/CAB_index.png'
+background: '/img/posts/CAB_image.jpeg'
+lang: en
+lang-ref: Cities-And-Buildings
 ---
 # Cities And Buildings
 Web Application for Architects, Engineers, and All Other Building-Fanatics.

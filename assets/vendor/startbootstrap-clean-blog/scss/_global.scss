@@ -21,7 +21,7 @@ h6 {
 }
 
 a {
-  color: rgb(110, 110, 121);
+  color: rgb(137, 192, 224);
     @include transition-all;
   &:focus,
   &:hover {
@@ -71,4 +71,14 @@ img::selection {
 img::-moz-selection {
   color: $white;
   background: transparent;
+}
+.lang-options {
+  text-align: end;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.lang-options li{
+  padding-left: 0.25rem;
+  display: inline;
+  cursor: pointer;
 }

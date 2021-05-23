@@ -1,0 +1,60 @@
+I"û	<h1 id="simple-web-pages">Simple Web Pages</h1>
+<blockquote>
+  <p>Compilation of quick web pages I created
+<br />
+Simple web pages built on HTML + CSS + client-side JS, with additional features</p>
+</blockquote>
+
+<p><br /></p>
+<h4 id="tv-show-search">TV Show Search</h4>
+<ul>
+  <li>Retrieve tv shows with titles containing keyword, using <a href="https://www.tvmaze.com/api">TV Maze API</a></li>
+  <li>Implemented modal using pure CSS</li>
+  <li><strong>Link</strong> - <a href="/2021/03/31/tvShows.html" target="_blank">TV Show Search</a>
+<br /></li>
+</ul>
+
+<h4 id="to-do-list">To-Do List</h4>
+<ul>
+  <li>HTML + CSS + VanillaJS</li>
+  <li>A simple webpage showing the current time, the weather at your location, and a to-do list!</li>
+  <li>Weather shown using OpenWeatherMap API!</li>
+  <li><strong>Link</strong> - <a href="https://haileykr.github.io/basicJS" target="_blank">To-Do List</a>
+<br /></li>
+</ul>
+
+<h4 id="culture-of-korea">Culture Of Korea</h4>
+<ul>
+  <li>Responsive layout - order of elements changes on mobile screen</li>
+  <li>Live Chat functionality added using <a href="https://www.tawk.to/"><em>Tawk</em></a></li>
+  <li>Comment functionality added using <a href="https://blog.disqus.com"><em>Disqus</em></a></li>
+  <li>Bootstrap framework used</li>
+  <li><strong>Link</strong> - <a href="/2021/03/31/Culture-Of-Korea.html" target="_blank"><em>Culture Of Korea</em></a>
+<br /></li>
+</ul>
+
+<h4 id="image-gallery--virtual-trip">Image Gallery | Virtual Trip</h4>
+<ul>
+  <li>Each card shows a random photo of the city it is representing, retrived from <em>Unsplash</em>.</li>
+  <li>Clicking each card leads you to Unsplash search results on its city.</li>
+  <li><strong>Link</strong> - <a href="/2021/03/31/image-gallery.html" target="_blank">Image Gallery_Virtual Trip</a>
+<br /></li>
+</ul>
+
+<h4 id="motion-graphic-library-mojs-practices">Motion Graphic Library Mo.js Practices</h4>
+<ul>
+  <li>Mo.js used to generate motion graphics based on tutorials of <a href="https://mojs.github.io">mo.js</a></li>
+  <li><strong>Link</strong> - <a href="/2021/03/31/mojs1.html" target="_blank">Jumping Box</a></li>
+  <li><strong>Link</strong> - <a href="/2021/03/31/mojs2.html" target="_blank">Fireworks at Click!</a>
+<br /></li>
+</ul>
+
+<h4 id="masonry-layout--lazy-loading">Masonry Layout + Lazy Loading</h4>
+<ul>
+  <li>Masonry Layout implemented with pure CSS</li>
+  <li>Lazy loading implemented using Event Listener</li>
+  <li><strong>Link</strong> - <a href="/2021/03/31/masonry-fontello.html" target="_blank">Bridge Board</a>
+<br /></li>
+</ul>
+
+:ET
