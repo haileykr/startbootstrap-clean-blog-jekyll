@@ -56,5 +56,5 @@ lang-ref: Cities-And-Buildings
   * _mapbox_: 빌딩의 geolocation을 바탕으로 지도에 위치 표시
 
 #### Deployment
-- _heroku_에 배포하였습니다.
+- _heroku_ 에 배포하였습니다.
 - PaaS (Platform as a Service)를 제공하여 비교적 사용이 쉬운 Heroku를 처음 만든 프로젝트의 배포 플랫폼으로 결정하였습니다.

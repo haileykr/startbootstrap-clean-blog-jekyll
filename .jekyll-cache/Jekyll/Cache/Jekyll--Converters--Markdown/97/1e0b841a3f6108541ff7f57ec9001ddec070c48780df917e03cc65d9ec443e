@@ -1,0 +1,74 @@
+I"<h1 id="cities-and-buildings">Cities And Buildings</h1>
+<p>건축가, 건축공학자, 그리고 모든 빌딩 팬들을 위한 웹 앱. 🌇 🌃</p>
+
+<p><a href="https://citiesandbuildings.herokuapp.com" target="_blank">citiesandbuildings.herokuapp.com</a></p>
+
+<p><img src="/img/posts/CAB_image.png" alt="home" /></p>
+
+<p><img src="/img/posts/CAB_ind.png" alt="index" /></p>
+
+<h2 id="functionalities">Functionalities</h2>
+<ol>
+  <li>세계 각지의 빌딩들을 탐험해보세요!
+    <ul>
+      <li>관심 있는 빌딩에 대한 정보를 알아보세요.</li>
+      <li>여러분이 알고 있는 재밌는 정보도 추가해보세요.</li>
+    </ul>
+  </li>
+  <li>당신의 빌딩을 추가하기 위해 멤버가 되어보세요!
+    <ul>
+      <li>회원가입 후에는, 관심있는 빌딩을 추가할수도, 수정 및 삭제할수도 있어요.</li>
+    </ul>
+  </li>
+  <li>다양한 검색어로 빌딩을 검색해보세요!
+    <ul>
+      <li>빌딩 이름, <em>(추가 예정)</em>높이, 건축가, 그리고 건축공학자 이름으로 빌딩을 검색해보세요.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p><img src="/img/posts/CAB_tech_stack.png" alt="tech_stack" /></p>
+
+<h4 id="front-end">Front-end</h4>
+<ul>
+  <li>HTML, CSS, 그리고 JavaScript (EJS)로 개발되었습니다.</li>
+  <li>더 많은 스타일링과 반응형 디자인 구현을 위해 CSS 프레임워크인 Bootstrap이 사용됐습니다.</li>
+</ul>
+
+<h4 id="back-end">Back-end</h4>
+<ul>
+  <li>RESTful 라우팅을 구현했습니다.</li>
+  <li>Express 웹 프레임워크가 서버 구현에 사용되었습니다.</li>
+  <li>프론트엔드, 백엔드 모두 자바스크립트로 구현하기 위해 Node.js에 기반한 Express를 선택했습니다.</li>
+  <li>MongoDB를
+    <ul>
+      <li>Node.js와 Express와의 호환성</li>
+      <li>NoSQL 데이터베이스 사용 연습 목적
+을 바탕으로 선택했습니다.</li>
+    </ul>
+  </li>
+  <li>기타 라이브러리
+    <ul>
+      <li><em>EJS</em>: 자바스크립트 사용 기반 템플릿 엔진</li>
+      <li><em>Axios</em>: 프로미스 바탕의 HTTP 리퀘스트 관리</li>
+      <li><em>express-session</em>: 세션 도입</li>
+      <li><em>passport</em>: Authentication (인증)과 Authorization (인가) 관리</li>
+      <li><em>Mongoose_와_JOI</em>: 데이터 스키마 관리를 통한 데이터 유효성 검증</li>
+      <li><em>express-mongo-sanitize</em>: Express의 내장 미들웨어 / 클래스와 더불어 Mongo Injection (데이터베이스 삽입 공격) 방지</li>
+      <li><em>sanitize-html</em>: JOI와 더불어 XSS(Cross-Site Scripting) 공격 방지</li>
+      <li><em>helmet</em>: 보안 강화를 위해 헤더 설정</li>
+      <li><em>flash</em>: 알림 메시지 커스터마이제이션</li>
+      <li><em>cloudinary</em>: 이미지 업로드와 수정 및 관리</li>
+      <li><em>multer</em>: multipart form 데이터 관리</li>
+      <li><em>mapbox</em>: 빌딩의 geolocation을 바탕으로 지도에 위치 표시</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="deployment">Deployment</h4>
+<ul>
+  <li><em>heroku</em> 에 배포하였습니다.</li>
+  <li>PaaS (Platform as a Service)를 제공하여 비교적 사용이 쉬운 Heroku를 처음 만든 프로젝트의 배포 플랫폼으로 결정하였습니다.</li>
+</ul>
+:ET

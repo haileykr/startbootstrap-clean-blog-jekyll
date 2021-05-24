@@ -60,9 +60,19 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url("/assets/vendor/startbootstrap-clean-blog/scss/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf") format('opentype');
+  unicode-range: U+AC00-D7AF;
+  font-style: normal;
+  font-weight: normal;
+}
+
 @mixin serif-font() {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Noto Sans KR', 'Lora', 'Times New Roman', serif;
 }
 @mixin sans-serif-font() {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
