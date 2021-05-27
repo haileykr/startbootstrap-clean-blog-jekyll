@@ -27,7 +27,7 @@ L‎ÖVE was used as a fast 2-D game development framework, which provides modul
 - Velocity and Delta Time
   - Delta Time ("amount of time passed since the last frame") used to "normalize" the game speed regardless of the different frame rates across computers
 - Game State
-  ![Game_Loop](../img/posts/Game_Loop.svg)
+  ![Game_Loop](../img/posts/Game_Loop.png)
 - Object-Oriented Programming
   - Class introduced to manage relevant codes better and cleaner!
 - Box Collision (HitBoxes, Bounding Boxes)
