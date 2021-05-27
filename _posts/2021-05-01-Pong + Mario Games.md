@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Pong + Mario Games"
+subtitle: "Replications of Pong and simple Mario Game -Lua with L‎ÖVE"
+background: '/img/posts/mario.png'
+lang: en
+lang-ref: Games
+---
+
 # Games
 
 Quick Games made in **Lua with L‎ÖVE**, based on **CS50 Class (Fall 2020, led by Colton Ogen @Harvard)**
